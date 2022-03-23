@@ -1,6 +1,4 @@
 import {
-  LastLastContainer,
-  LastNavContainer,
   LastNavTextContainer, MidMidContainer,
   MidNavContainer,
   MidNavTextContainer, ThinProgressBar,

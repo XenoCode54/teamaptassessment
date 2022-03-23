@@ -204,7 +204,7 @@ export function Calender () {
     {/*  numbers*/}
     <NumbersContainer>
       {days.map((day, index) => {
-        return <Columns>
+        return <Columns key={day.date}>
           <NumberContainer onClick={() => setSelectedDate(day.date)} active={day.date === selectedDate} key={index}>
             <DayText active={day.date === selectedDate}>{day.day}</DayText>
             <DayNumber active={day.date === selectedDate}>{day.date}</DayNumber>
@@ -222,7 +222,7 @@ export function Calender () {
           const width = (data.days / 17) * 100;
           const position = (data.startDay * 60) - 240;
 
-          return <Row key={data.title}>
+          return <Row key={`profile-${index}`}>
             <ProfileCard>
               <ProfileImage
                 src={data.image}

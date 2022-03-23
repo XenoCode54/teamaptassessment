@@ -1,4 +1,3 @@
-import './App.css';
 import { Main } from './Components/Main/Main';
 import { AppContainer } from './Components/Main/Main.styled';
 import { Side } from './Components/Side/Side';

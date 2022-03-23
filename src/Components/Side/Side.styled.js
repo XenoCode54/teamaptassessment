@@ -4,8 +4,9 @@ export const SideContainer = styled.div`
   background-color: #f5f5f5;
   width: 25%;
   height: 100vh;
+  position: relative;
   padding: 0 20px 0;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
 
 export const TopContainer = styled.div`
@@ -105,8 +106,9 @@ export const ProfileCard = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin-top: 70px;
+  width: 85%;
+  position: absolute;
+  bottom: 50px;
   padding: 0 20px;
   box-sizing: border-box;
   border-radius: 20px;
