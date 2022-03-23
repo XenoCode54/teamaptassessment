@@ -7,8 +7,6 @@ import { MidNav } from './MidNav';
 export function Main () {
   return <MainContainer>
     <TopNav />
-    {/*  Second nav*/}
-    {/*  Third nav*/}
     <MidNav />
     <LastNav />
     <div style={{ height: '10px', width: '10px' }} />
